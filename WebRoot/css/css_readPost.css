@@ -1,0 +1,84 @@
+@charset "utf-8";
+#readPostText {
+	min-height: 800px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #a9cbee;
+	padding: 3px;
+	overflow: hidden;
+}
+body {
+	background-color: #FAFCF7;
+}
+#title {
+	background-image: url(../images/pic_titbg02.gif);
+	background-repeat: repeat-x;
+	display: block;
+	color: #FFF;
+	padding-left: 20px;
+	font-size: 20px;
+	height: 25px;
+	padding-top: 6px;
+	text-align: left;
+}
+#post-ower {
+	display: block;
+	padding-bottom: 2px;
+	border-bottom-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-color: #A9CBEE;
+	min-height:200px;
+}
+.photo {
+	float: left;
+	width: 150px;
+	border: 1px solid #A9CBEE;
+	height: 154px;
+	margin-bottom: 6px;
+}
+.content {
+	float: left;
+	width: 68%;
+	border: 1px solid #A9CBEE;
+	height: 160px;
+	margin-bottom: 3px;
+}
+.answer {
+	border: 1px solid #A9CBEE;
+	margin-left: 6px;
+	float: left;
+	clear: right;
+	margin-right: 16px;
+}
+.photo:hover img {
+	box-shadow:2px2px4px rgba(0,0,0,.45);
+}.request-text {
+	clear: right;
+	float: left;
+	width: 68%;
+	border: 1px solid #A9CBEE;
+	height: 126px;
+	overflow: auto;
+	text-align: left;
+}
+.clear {
+	clear: both;
+}
+#change {
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+}
+#text {
+	margin-left: 14px;
+}
+#footer {
+	display: block;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.footer-p {
+	text-align: center;
+}

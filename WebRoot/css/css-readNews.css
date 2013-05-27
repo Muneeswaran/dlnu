@@ -1,0 +1,145 @@
+@charset "utf-8";
+#headerr {
+	display: block;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+#headerr p a {
+	display: inline-block;
+	
+	margin-right: 10px;
+	margin-left: 10px;
+	color:#369;
+}
+a:hover {
+	color: #F60;
+}
+
+hr {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 3px;
+	border-left-width: 0px;
+	border-bottom-color: #EFF5DC;
+}
+#content {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.left {
+	height: 100%;
+	width: 660px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #B5CE85;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	margin-top: 0px;
+	padding-top: 0px;
+	display: table-cell;
+}
+.right {
+	height: 500px;
+	width: 160px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+	background-color: #EFF5DC;
+	color: #CCC;
+}
+#top {
+	display: block;
+	height: 40px;
+	width: 100%;
+	background-color: #454545;
+	text-align: center;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#top a {
+	display: inline-block;
+	width: 120px;
+	margin-top: 6px;
+	margin-right: 10px;
+	height: 30px;
+}
+#title {
+	background-image: url(../images/nv.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	display: block;
+	height: 35px;
+	width: 100%;
+	text-indent: 2em;
+	font-size: 24px;
+	color: #333;
+	padding-top: 5px;
+}
+td, th {
+	display: table-cell;
+	vertical-align: text-top;
+}
+#text {
+	height: 100%;
+	width: 100%;
+	overflow: visible;
+	text-indent: 2em;
+	color: #555;
+	padding-top: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	line-height: 20px;
+	position:relative;
+}
+#detail {
+	color: #333;
+	width: 97%;
+	margin-top: 8px;
+	padding-top: 2px;
+	padding-bottom: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666;
+	text-align: right;
+	padding-right: 30px;
+}
+#detail span {
+	color: #369;
+}
+.hot {
+	text-align: center;
+	display: block;
+	padding-top: 5px;
+	color: #FFF;
+	font-size: 24px;
+	background-image: url(../images/nv.jpg);
+	background-repeat: repeat-x;
+	height: 35px;
+}
+.right ul li {
+	list-style-image: url(../images/bullet-note.gif);
+}
+.right ul li:hover {
+	list-style-image: url(../images/img_012.gif);
+}

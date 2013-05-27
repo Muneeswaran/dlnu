@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="myitbbs0508"
+  id="myeclipse.1344086225032"
+  context-root="/itbbs"
+  j2ee-spec="5.0"
+  archive="myitbbs0508.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

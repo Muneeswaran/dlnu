@@ -1,0 +1,769 @@
+/* CSS Document */
+
+@charset "utf-8";
+
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, label, dl, dt, dd, fieldset, img {
+     border: 0px none;
+     list-style: none outside none;
+     margin: 0px;
+     padding: 0px;
+	
+}
+.footer ul li
+{
+	display:inline;
+	float:left;
+}
+.footer ul li a
+{
+	width:40px;
+	text-align:center;
+}
+
+*/
+
+select, input {
+     vertical-align: middle;
+}
+
+ul {
+     list-style-type: none;
+}
+
+cite, em {
+     font-style: normal;
+}
+
+a {
+     color: #2B99E3;
+     text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+     cursor: pointer;
+}
+
+label {
+     cursor: pointer ! important;
+     vertical-align: middle;
+}
+
+.wordwrap {
+     word-wrap: break-word;
+}
+
+.clearit {
+     clear: both;
+     height: 0px;
+    /* overflow: hidden;*/
+}
+
+a {
+     text-decoration: none;
+	 float:left;
+}
+
+a:link {
+     color: #1E50A2;
+}
+
+a:visited {
+     color: #1E50A2;
+}
+
+a:hover, a:active, a:focus {
+     color: #1E50A2;
+     text-decoration: underline;
+}
+
+.clearit {
+     clear: both;
+}
+
+.link a:link, .link a:visited, .link a:hover, a.link:link, a.link:visited, a.link:hover {
+     color: #1E50A2;
+     text-decoration: underline;
+}
+
+.merge_regist {
+	background:url(../image/login_bg.jpg) repeat scroll 0px 0px transparent;
+	font-size: 12px;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+}
+
+#wrap {
+     width: 100%;
+}
+
+.head {
+     margin: 0px auto;
+     width: 960px;
+}
+
+.logo {
+     float: left;
+     height: 32px;
+     margin: 30px 0px 20px 10px;
+     position: relative;
+     width: 195px;
+}
+
+.logolink, .logoimg {
+	display: block;
+	height: 57px;
+	position: absolute;
+	top: 0px;
+	width: 195px;
+}
+
+.logolink {
+    
+}
+
+.logoimg {
+     background: url("/images/signup/blog/logo_com.png") no-repeat scroll 0% 0% transparent;
+}
+
+.logotxt {
+     border-left: 1px solid #333333;
+     float: left;
+     font-family: "微软雅黑";
+     font-size: 20px;
+     margin: 32px 0px 0px 15px;
+     padding-left: 15px;
+}
+
+
+.Footer {
+     clear: both;
+     font-family: Arial,"宋体";
+     line-height: 25px;
+     margin-top: 100px;
+     text-align: center;
+}
+
+.main {
+     clear: both;
+	 
+     margin: 0px auto;
+     position: relative;
+     width: 640px;
+	 background-color:#FFF;
+}
+
+.main
+{
+	margin-top:100px;
+}
+.main_top {
+     background: url("/images/signup/blog/frame.png") no-repeat scroll 0px 0px/* transparent*/;
+     height: 10px;
+     overflow: hidden;
+     width: 960px;
+}
+
+.main_bottom {
+     background: url("/images/signup/blog/frame.png") no-repeat scroll right 0px transparent;
+     height: 10px;
+     overflow: hidden;
+     width: 960px;
+}
+
+.main_cen {
+     background: url("/images/signup/blog/frame.png") repeat-y scroll -980px 0px transparent;
+     height: auto;
+     min-height: 200px;
+     padding-left: 48px;
+}
+
+.mainCenLeft {
+     float: left;
+     overflow: hidden;
+     width: 640px;
+}
+
+.inputbox {
+     float: left;
+     margin-right: 10px;
+     width: 190px;
+}
+
+.inputbox .input {
+     background: url("/images/signup/blog/btn.gif") repeat scroll left -135px transparent;
+     float: left;
+     height: 24px;
+     line-height: 24px;
+     margin: 3px 5px 3px 0px;
+     width: 10px;
+}
+
+.inputbox .input cite {
+     background: url("/images/signup/blog/btn.gif") repeat scroll right -164px transparent;
+     float: left;
+     font-family: "宋体";
+     font-style: normal;
+     height: 24px;
+     line-height: 24px;
+     margin-left: 10px;
+     padding: 1px 10px 0px 0px;
+     width: 170px;
+}
+
+.inputbox .input input {
+     border: 0px none;
+     font-family: Verdana,"宋体";
+     height: 18px;
+     line-height: 18px;
+     padding: 4px 2px 0px 0px;
+     width: 100%;
+}
+
+.inputbox .input img {
+     cursor: pointer;
+}
+
+.inputbox .inputGreen {
+     background-position: left -193px;
+     height: 30px;
+     line-height: 30px;
+     margin: 0px 5px 0px 0px;
+}
+
+.inputbox .inputGreen cite {
+     background:url(../image/login_6.gif) repeat scroll right -228px transparent;
+     height: 26px;
+     line-height: 26px;
+     padding: 4px 10px 0px 0px;
+}
+
+.inputbox .inputRed {
+     background-position: left -263px;
+     height: 30px;
+     line-height: 30px;
+     margin: 0px 5px 0px 0px;
+}
+
+.inputbox .inputRed cite {
+     background: url("/images/signup/blog/btn.gif") repeat scroll right -298px transparent;
+     height: 26px;
+     line-height: 26px;
+     padding: 4px 10px 0px 0px;
+}
+
+
+.icon {
+     background: url("/images/signup/blog/btn.gif") no-repeat scroll -186px -62px transparent;
+     float: left;
+     height: 16px;
+     margin: -2px 5px 0px 0px;
+     width: 12px;
+}
+
+
+
+.titleTxt {
+     clear: both;
+     padding-bottom: 15px;
+     padding-left: 30px;
+}
+.btn3, .btn3:link, .btn3:visited {
+     background: url("/images/signup/blog/btn.gif") no-repeat scroll 0px -495px transparent;
+     display: block;
+     float: left;
+     height: 29px;
+     margin-top: 10px;
+     width: 171px;
+}
+
+.btn_submit {
+     margin-left: 100px;
+}
+
+.theBtnRegion {
+     margin-top: 20px;
+}
+
+
+
+.inputbox {
+     float: left;
+     margin-right: 10px;
+     width: 180px;
+}
+
+.inputbox .input {
+     background:url(../image/login_6.gif) repeat scroll left -135px transparent;
+     float: left;
+     height: 24px;
+     line-height: 24px;
+     margin: 3px 5px 3px 0px;
+     width: 10px;
+}
+
+.inputbox .input cite {
+     background: url("/images/signup/blog/btn.gif") repeat scroll right -164px transparent;
+     float: left;
+     font-family: "宋体";
+     font-style: normal;
+     height: 24px;
+     line-height: 24px;
+     margin-left: 10px;
+     padding: 1px 10px 0px 0px;
+     width: 160px;
+}
+
+.inputbox .input input {
+     border: 0px none;
+     font-family: Verdana,"宋体";
+     height: 17px;
+     padding: 3px 2px 0px 0px;
+     width: 100%;
+}
+
+.inputbox .input img {
+     cursor: pointer;
+}
+
+.inputbox .inputGreen {
+     background-position: left -193px;
+     height: 30px;
+     line-height: 30px;
+     margin: 0px 5px 0px 0px;
+}
+
+.inputbox .inputGreen cite {
+     background: url("/images/signup/blog/btn.gif") repeat scroll right -228px transparent;
+     height: 26px;
+     line-height: 26px;
+     padding: 4px 10px 0px 0px;
+}
+
+.inputbox .inputRed {
+     background-position: left -263px;
+     height: 30px;
+     line-height: 30px;
+     margin: 0px 5px 0px 0px;
+}
+
+.inputbox .inputRed cite {
+     background: url("/images/signup/blog/btn.gif") repeat scroll right -298px transparent;
+     height: 26px;
+     line-height: 26px;
+     padding: 4px 10px 0px 0px;
+}
+
+
+.theGift {
+     margin-left: -10px;
+}
+
+.inputacc {
+     height: 30px;
+     line-height: 28px;
+     overflow: hidden;
+}
+
+.error {
+     background: url("/images/signup/blog/btn.gif") no-repeat scroll -165px -88px transparent;
+     display: inline-block;
+     height: 14px;
+     margin: 0px 3px 0px 0px;
+     vertical-align: middle;
+     width: 14px;
+}
+
+.yes {
+     background: url("/images/signup/blog/btn.gif") no-repeat scroll -184px -88px transparent;
+     display: inline-block;
+     height: 14px;
+     margin: 0px 3px 0px 0px;
+     vertical-align: middle;
+     width: 14px;
+}
+
+.footer {
+     clear: both;
+     font-family: Arial,"宋体";
+     line-height: 25px;
+     margin-top: 100px;
+     text-align: center;
+}
+
+.btn_submit {
+     background: url("/images/signup/blog/btn.gif") no-repeat scroll 0px -563px transparent;
+     border: 0px none;
+     float: left;
+     font-family: "微软雅黑";
+     font-size: 16px;
+     height: 37px;
+     line-height: 32px;
+     text-align: center;
+     text-decoration: none;
+     width: 104px;
+}
+
+.main_top .txt {
+     display: block;
+     font-family: "Microsoft Yahei";
+     font-size: 18px;
+     padding: 40px 0px 0px 132px;
+}
+
+.mainCenTl {
+     float: left;
+     position: relative;
+     width: 100%;
+}
+
+.easyReg {
+     clear: both;
+     margin-left: 90px;
+     margin-top: 10px;
+     width: 100%;
+}
+
+.easyReg li {
+     clear: both;
+     display: block;
+     height: 39px;
+     line-height: 39px;
+     margin-bottom: 5px;
+     position: relative;
+     text-align: left;
+}
+
+.easyReg li label {
+     color: #666666;
+     cursor: auto ! important;
+     display: inline;
+     float: left;
+     font-size: 14px;
+     text-align: right;
+     width: 10em;
+}
+
+.easyReg li input.ipt {
+     border: medium none;
+     color: #333333;
+     float: left;
+     font-size: 14px;
+     height: 33px;
+     padding: 0px 5px 0px 0px;
+     width: 229px;
+}
+
+.easyReg li .slt {
+     border: 1px solid #DFDFDF;
+     color: #D7D7D7;
+     float: left;
+     font-size: 14px;
+     height: 33px;
+     margin: 2px 7px 3px 2px;
+     overflow: hidden;
+     position: relative;
+     width: 236px;
+}
+
+.easyReg li .slt span {
+     color: #D7D7D7;
+     font-size: 18px;
+     padding: 0px 13px 0px 5px;
+}
+
+.easyReg li .slt em.tip {
+     background: url("/images/signup/blog/easyreg_select.png") no-repeat scroll 0% 0% transparent;
+     cursor: pointer;
+     height: 18px;
+     position: absolute;
+     right: 8px;
+     top: 8px;
+     width: 19px;
+}
+
+.easyReg li input.btn_submit {
+     background: url("/images/signup/blog/easyreg_btn.png") no-repeat scroll 0% 0% transparent;
+     cursor: pointer;
+     float: left;
+     height: 41px;
+     margin-left: 142px;
+     text-indent: -9999px;
+     width: 122px;
+}
+
+.easyReg li input.btn_submit:hover {
+     background-position: 0px -51px;
+}
+
+.easyReg li strong {
+     color: #666666;
+     font-family: arial;
+     font-size: 20px;
+     margin-left: 4px;
+     margin-right: 18px;
+}
+
+.easyReg li span {
+     color: #666666;
+     font-size: 12px;
+}
+
+.easyReg li span.errtip {
+     background: none repeat scroll 0% 0% #FFFFCC;
+     border-radius: 3px 3px 3px 3px;
+     border: 1px solid #DBDB78;
+     color: #333333;
+     left: 390px;
+     line-height: 18px;
+     padding: 8px 11px;
+     position: absolute;
+     top: 0px;
+     width: 260px;
+     z-index: 100;
+}
+
+.easyReg li .inputbox {
+     float: left;
+     margin-right: 10px;
+     width: 237px;
+}
+
+.easyReg li .inputbox .input {
+     background: url("/images/signup/blog/easyreg_ipt.gif") repeat scroll 0px 0px transparent;
+     float: left;
+     height: 39px;
+     line-height: 39px;
+     margin: 0px 5px 0px 0px;
+     width: 10px;
+}
+
+.easyReg li .inputbox .input cite {
+     background: url("/images/signup/blog/easyreg_ipt.gif") repeat scroll right -49px transparent;
+     float: left;
+     font-family: "宋体";
+     font-style: normal;
+     height: 39px;
+     line-height: 39px;
+     margin-left: 10px;
+     padding: 4px 10px 0px 0px;
+     width: 222px;
+}
+
+.easyReg li .inputbox .input input {
+     font-family: Verdana,"宋体";
+     height: 29px;
+     margin: 3px 0px 0px;
+     width: 100%;
+}
+
+.easyReg li .inputbox .input input:focus {
+     outline: medium none;
+}
+
+.easyReg li .inputbox .input img {
+     cursor: pointer;
+}
+
+.easyReg li .inputbox .inputGreen {
+     background-position: 0px -98px;
+     height: 39px;
+     line-height: 39px;
+     margin: 0px 5px 0px 0px;
+}
+
+.easyReg li .inputbox .inputGreen cite {
+     background: url("/images/signup/blog/easyreg_ipt.gif") repeat scroll right -147px transparent;
+     height: 39px;
+     line-height: 39px;
+     padding: 4px 10px 0px 0px;
+}
+
+.easyReg li .inputbox .inputRed {
+     background-position: 0px -196px;
+     height: 39px;
+     line-height: 39px;
+     margin: 0px 5px 0px 0px;
+}
+
+.easyReg li .inputbox .inputRed cite {
+     background: url("/images/signup/blog/easyreg_ipt.gif") repeat scroll right -245px transparent;
+     height: 39px;
+     line-height: 39px;
+     padding: 4px 10px 0px 0px;
+}
+
+.mainCenTl .showDate {
+     background: none repeat scroll 0% 0% #FFFFFF;
+     border: 1px solid #CCCCCC;
+     left: 232px;
+     position: absolute;
+     top: 178px;
+     width: 236px;
+}
+
+.mainCenTl .showDate ul {
+     margin: 0px 1px;
+}
+
+.mainCenTl .showDate li {
+     color: #999999;
+     cursor: pointer;
+     height: 20px;
+     line-height: 20px;
+     padding: 0px 6px;
+}
+
+.mainCenTl .showDate li.current {
+     background: none repeat scroll 0% 0% #E8F4FC;
+     color: #333333;
+     font-weight: bold;
+}
+
+.mainCenTl .title_note {
+     color: #CC0000;
+     margin-left: 234px;
+     margin-top: 10px;
+}
+
+.easyReg li .inputacc {
+     height: 39px;
+     line-height: 39px;
+     overflow: hidden;
+}
+
+.easyReg li .inputtxt {
+     clear: both;
+     padding-top: 2px;
+}
+
+.easyReg li .error {
+     background: url("/images/signup/blog/btn.gif") no-repeat scroll -165px -88px transparent;
+     display: inline-block;
+     height: 14px;
+     margin: 0px 3px 0px 0px;
+     vertical-align: middle;
+     width: 14px;
+}
+
+.easyReg li .yes {
+     background: url("/images/signup/blog/btn.gif") no-repeat scroll -184px -88px transparent;
+     display: inline-block;
+     height: 30px;
+     margin: 12px 3px 0px 0px;
+     vertical-align: middle;
+     width: 14px;
+}
+
+.mainCenLeft .loading {
+     background: url("/images/signup/blog/regist_loading.gif") no-repeat scroll 0% 0% transparent;
+     color: #666666;
+     font-size: 14px;
+     height: 32px;
+     line-height: 32px;
+     margin: 110px 0px 0px 230px;
+     padding-left: 42px;
+}
+
+#cimage {
+     cursor: pointer;
+}
+
+.reg_tab {
+     border-bottom: 1px dotted #9E9E9E;
+     margin: 0px 48px 16px 0px;
+     padding-bottom: 5px;
+     padding-top: 30px;
+}
+
+.reg_tab li {
+     float: left;
+     vertical-align: top;
+}
+
+.reg_tab li a {
+     background-image: url("/images/signup/blog/reg_tab.gif");
+     background-position: 0px -56px;
+     background-repeat: no-repeat;
+     float: left;
+     height: 41px;
+     margin-right: 5px;
+     width: 147px;
+}
+
+.reg_tab li a.cur {
+     background-position: 0px 0px;
+}
+
+.reg_tab li a {
+     color: #FFFFFF;
+     display: block;
+     font: 14px/16px 'Microsoft YaHei';
+     padding-top: 8px;
+     text-align: center;
+     text-decoration: none;
+}
+
+.reg_tab li a:link, .reg_tab li a:visited, .reg_tab li a:hover {
+     color: #FFFFFF;
+}
+
+.reg_title {
+     color: #666666;
+     font: 13px/20px 'Microsoft Yahei';
+     padding-bottom: 20px;
+}
+
+.reg_title strong {
+     color: #333333;
+     font: 20px/20px 'Microsoft Yahei';
+}
+
+.reg_tab .qing .cur {
+     background-position: 0px -105px;
+}
+
+.reg_tab .use_weibo {
+     color: #666666;
+     float: right;
+     font: 14px/20px 'Microsoft Yahei';
+     margin: 18px 108px 0px 0px;
+}
+
+.sgtxtd {
+     color: #FF6600;
+}
+
+.mainCenLeft {
+     float: left;
+     width: 507px;
+}
+
+.pagetl {
+     font: 18px/20px 'Microsoft Yahei';
+     padding: 48px 0px 13px;
+}
+
+.mainCenLeft .sended {
+     border-bottom: 1px dotted #9E9E9E;
+     color: #666666;
+     margin-bottom: 35px;
+     padding-bottom: 17px;
+}
+
+
+
+.login_succ_icon {
+     float: left;
+     margin: 30px 0px 0px 40px;
+}
+
+#banben_li {
+	background-image: url(../image/banben.gif);
+	float: left;
+	height: 42px;
+	width: 147px;
+}

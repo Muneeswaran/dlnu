@@ -1,0 +1,26 @@
+package com.myitbbs.dao;
+
+import java.util.List;
+
+import com.myitbbs.model.Resourcefile;
+
+public interface ResourcefileDao {
+	public boolean delete(int id);
+
+	public boolean delete(Resourcefile resourcefile);
+
+	public List<Resourcefile> findAll();
+
+	public boolean save(Resourcefile resourcefile);
+
+	public Resourcefile get(int id);
+
+	public boolean update(Resourcefile resourcefile);
+
+	public List<Resourcefile> findPage(int page, int number);
+
+	public List<Resourcefile> findByCategoryId(int id);
+
+	public List<Resourcefile> findPageByCategoryId(int page, int number, int id);
+    public int countOfKey(String key);
+}

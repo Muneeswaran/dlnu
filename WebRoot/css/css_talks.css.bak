@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+#content_talks {
+	display: block;
+	height: 980px;
+	width: 85%;
+	border: 1px solid #ABDAF8;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	-moz-border-radius:8px;
+	-o-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+#left,#center {
+	min-height: 600px;
+	width: 40%;
+	margin-right: 2px;
+	border-top-width: 3px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #3095C3;
+	border-right-color: #ABDAF8;
+	border-bottom-color: #ABDAF8;
+	border-left-color: #ABDAF8;
+	float: left;
+	height: 100%;
+}
+.title {
+	background-color: #3095C3;
+	text-align: left;
+	display: block;
+	clear: both;
+	width: 100%;
+	color: #FFF;
+}
+.show {
+	text-align: left;
+}
+#layout #content_talks  .show li {
+	background-color: #E3F4FF;
+	color: #1E79A7;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #ABDAF8;
+	border-right-color: #ABDAF8;
+	border-bottom-color: #ABDAF8;
+	border-left-color: #ABDAF8;
+	-moz-border-radius:8px;
+	-o-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius: 8px;
+}
+#right {
+	float: left;
+	width: 17%;
+	margin-left: 2px;
+	border-top-width: 2px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #1E79A7;
+	border-bottom-color: #CFECFF;
+	border-left-color: #CFECFF;
+	margin-right: 5px;
+	border-right-width: 1px;
+	border-right-color: #CFECFF;
+}
+#layout #content_talks #right ul li {
+	float: left;
+	margin-right: 4px;
+	padding-top: 2px;
+	background-image: url(../images/bottombg.jpg);
+	background-repeat: repeat-x;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	color: #4A8109;
+}
+#layout #content_talks #right ul li a {
+	font-size: 16px;
+}
+#layout #content_talks #center .show li a {
+	color: #1E79A7;
+}
+#layout #content_talks #left .show li a {
+	color: #1E79A7;
+}

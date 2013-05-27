@@ -1,0 +1,79 @@
+@charset "utf-8";
+#content_postSend {
+	height: 700px;
+	width: 900px;
+	background-image: url(../images/pb-main-bg.$5106.png);
+	background-repeat: repeat-y;
+	display: block;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #C9CBCC;
+	position: relative;
+	text-align:left;
+}
+#pb_main_title {
+	color: #124062;
+    height: 18px;
+    font-size: 18px;
+    padding: 0 28px 20px;
+    border-bottom: 1px solid #E1E1E1;
+    position: relative;
+	text-align:left;
+}
+.clearfix, #content {
+zoom: 1;
+}
+#pb-post-area {
+margin-bottom: 30px;
+}
+.pb-post-section {
+zoom: 1;
+}
+.pb-section-title {
+color: #5C5C5C;
+font-size: 16px;
+font-weight: normal;
+margin: 25px 0 10px;
+padding: 0 28px 20px;
+}
+
+input.pb-input-text {
+height: 30px;
+box-shadow: 0 1px 1px #D3D1D1;
+}
+.pb-input-text {
+font-size: 24px;
+color: #333;
+line-height: 30px;
+padding: 7px;
+width: 588px;
+outline: none;
+border: 1px solid #DDD;
+border-top: 1px solid #EBEBEB;
+border-bottom: 1px solid #B7B7B7;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+background: white;
+}
+input:not([type]), input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="tel"], input[type="text"], input[type="url"], input[type="week"] {
+padding: 1px 0px;
+}
+.pb-post-section {
+zoom: 1;
+}
+.pb-section-title {
+color: #5C5C5C;
+font-size: 16px;
+font-weight: normal;
+margin: 25px 0 10px;
+}
+#pb-main {
+width: 660px;
+padding: 4px 0 22px;
+float: left;
+border-right: 1px solid #C9CBCC;
+border-top: none;
+border-bottom: none;
+}

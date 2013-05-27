@@ -1,0 +1,83 @@
+@charset "utf-8";
+#main {
+	height: 700px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #fff;
+	margin-top:40px;
+}
+#left {
+	float: left;
+	height: 590px;
+	width: 250px;
+	margin-top: 4px;
+	margin-right: 2px;
+	margin-left: 2px;
+	overflow: hidden;
+	border: 2px solid #cdcdcd;
+}
+#headPhoto {
+	text-align: center;
+	display: block;
+	height: 200px;
+	width: 200px;
+	border: 1px solid #CCC;
+	margin-left: 20px;
+}
+#headPhoto:hover{
+	box-shadow:2px2px4px rgba(0,0,0,.45);
+}
+.information {
+	display: block;
+	height: 30px;
+	margin-bottom: 8px;
+	padding-top: 4px;
+}
+#tabs {
+	float: left;
+	width: 620px;
+	border: 1px solid #cdcdcd;
+}
+.show {
+	height: 520px;
+	text-align: center;
+	display: block;
+}
+.show1 {
+	display: block;
+	margin-top: 70px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.show1 label {
+	height: 30px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	display: block;
+}
+.aCss {
+	background-image: url(../images/templatemo_button.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 20px;
+	width: 20px;
+	margin-left: 2px;
+	border: 1px groove #CCC;
+}
+li {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.contentCss {
+	display: inline;
+	height: 20px;
+	width: 500px;
+	margin-right: 10px;
+}
+.page {
+	margin-bottom: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #c4e0b6;
+}

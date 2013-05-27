@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>menu</title>
+<link rel="stylesheet" href="skin/css/base.css" type="text/css" />
+<link rel="stylesheet" href="skin/css/menu.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script language='javascript'>var curopenItem = '1';</script>
+<script language="javascript" type="text/javascript" src="skin/js/frame/menu.js"></script>
+<base target="main" />
+</head>
+<body target="main">
+<table width='99%' height="100%" border='0' cellspacing='0' cellpadding='0'>
+  <tr>
+    <td style='padding-left:3px;padding-top:8px' valign="top">
+	<!-- Item 1 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items1_1")'><b>用户管理</b></dt>
+        <dd style='display:block' class='sitem' id='items1_1'>
+          <ul class='sitemu'>
+            <li><a href='ManagerActiontoAddUser' target='main'>添加用户</a></li>
+            <li><a href='ManagerActiontoShowUser' target='main'>用户列表</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 1 End -->
+      <!-- Item 2 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items2_1")'><b>模块管理</b></dt>
+        <dd style='display:block' class='sitem' id='items2_1'>
+          <ul class='sitemu'>
+            <li><a href='ManagerActiontoAddCategory' target='main'>添加模块</a></li>
+            <li><a href='ManagerActiontoAdminCategoryList' target='main'>模块列表</a></li>
+            <li><a href='ManagerActiontoAddCategoryChild' target='main'>添加子模块</a></li>
+            <li><a href='ManagerActiontoAdminCategoryChildList' target='main'>子模块列表</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 2 End -->
+      
+      <!-- Item 帖子管理 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items3_1")'><b>帖子管理</b></dt>
+        <dd style='display:block' class='sitem' id='items3_1'>
+          <ul class='sitemu'>
+            <li><a href='ManagerActiontoShowTopicList' target='main'>帖子列表</a></li>
+            <li><a href='ManagerActiontoReportTopic' target='main'>被举报的帖子</a></li>
+            <li><a href='ManagerActiontoShowCommentList' target='main'>评论列表</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 帖子管理 End -->
+      
+      <!-- Item 新闻管理 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items4_1")'><b>新闻管理</b></dt>
+        <dd style='display:block' class='sitem' id='items4_1'>
+          <ul class='sitemu'>
+          	<li><a href='http://www.865171.cn' target='main'>发布滚动通知</a></li>
+            <li><a href='http://www.865171.cn' target='main'>滚动通知列表</a></li>
+            <li><a href='ManagerActiontoWriteNews' target='main'>发布新闻</a></li>
+            <li><a href='ManagerActiontoNewsList' target='main'>新闻列表</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 新闻管理 End -->
+      
+      <!-- Item 资源管理 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items5_1")'><b>资源管理</b></dt>
+        <dd style='display:block' class='sitem' id='items5_1'>
+          <ul class='sitemu'>
+            <li><a href='http://www.865171.cn' target='main'>上传资源</a></li>
+            <li><a href='http://www.865171.cn/admin-templates/' target='main'>资源列表</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 资源管理 End -->
+      
+      <!-- Item 管理概述 Strat -->
+      <dl class='bitem'>
+        <dt onClick='showHide("items6_1")'><b>管理概述</b></dt>
+        <dd style='display:block' class='sitem' id='items6_1'>
+          <ul class='sitemu'>
+            <li><a href='http://www.865171.cn' target='main'>后台主页</a></li>
+            <li><a href='http://www.865171.cn/admin-templates/' target='main'>版本信息</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <!-- Item 管理概述 End -->
+	  </td>
+  </tr>
+</table>
+</body>
+</html>

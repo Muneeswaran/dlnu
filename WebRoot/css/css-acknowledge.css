@@ -1,0 +1,192 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #F1F1F1;
+}
+#layout {
+	height: 100%;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+#nav {
+	display: block;
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.nav-li {
+	color: #666;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	margin-right: 40px;
+	font-family: "Comic Sans MS", cursive;
+}
+.nav-li:hover {
+	color:#F17200;
+	}
+hr {
+	color: lightGrey;
+	background-color: lightGrey;
+	clear: both;
+	height: 0px;
+	width: 100%;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: lightGrey;
+	border-bottom-color: #EFEFEF;
+}
+#main {
+	display: block;
+	height: 780px;
+	width: 900px;
+	margin-top: 4px;
+
+	margin-bottom: 5px;
+	margin-left:223px;
+	text-align: left;
+	position: relative;
+}
+#main-left{
+	width: 70%;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	display: block;
+	float: left;
+	height: 100%;
+	margin-right: 4px;
+	padding-top: 15px;
+	background-image: url(../images/pagelist-bg.png);
+	background-repeat: repeat;
+	}
+#main-right{
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	width: 25%;
+	display: block;
+	float: left;
+	height: 100%;
+	background-image: url(../images/pagelist-bg.png);
+	background-repeat: repeat;
+}
+.clear {
+	clear: both;
+}
+a {
+	color: #f17200;
+	text-decoration: none;
+}
+.min-nav {
+	text-align: center;
+	display: inline-block;
+	width: 50px;
+	margin-left: 10px;
+	margin-top: 20px;
+	height: 25px;
+}
+#content {
+	height: 530px;
+	width: 100%;
+	
+}
+#downLoad {
+	margin-top: 5px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	display: block;
+	min-height: 550px;
+	width: 100%;
+	border: 1px solid #ccc;
+	background-image: url(../images/pagelist-bg.png);
+	background-repeat: repeat;
+}
+h3 {
+	text-indent: 20px;
+}
+#downLoad p {
+	margin-left: 10px;
+	display: block;
+}
+#downLoad p a {
+	color:#555;
+	}
+#downLoad p a:hover {
+	color:#F12700;
+	}
+a:hover {
+		color:#000;
+	}
+	
+#footer {
+	display: block;
+	height: 100px;
+	width: 100%;
+	font-family: "Comic Sans MS", cursive;
+	text-align: center;
+	background-color: #F1F1F1;
+	padding-top: 50px;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#main1,#main2{
+	
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:5px;
+	width:100%;
+	height:1000px;
+	filter:Alpha(opacity=100);
+	background-color:rgba(256,256,256,0.9);
+	
+	}
+#show,#show1 {
+	width:400px;
+	height:0;
+	opacity:0;
+	margin-top:300px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #C5A524;
+	}
+	
+label {
+	display: inline-block;
+	margin-top: 8px;
+	font-size: 18px;
+	color: #666;
+}
+form {
+	display: block;
+	margin: 6px;
+}
+input {
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+textarea {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.download {
+	cursor:pointer;
+	}

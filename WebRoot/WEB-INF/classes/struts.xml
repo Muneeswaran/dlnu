@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd"><struts>
+
+<!--    <constant name="struts.enable.DynamicMethodInvocation" value="false" /> --> 
+    <constant name="struts.devMode" value="false" /> 
+    <constant name="struts.locale" value="zh_CN" /> 
+    <constant name="struts.multipart.maxSize" value="209715200"></constant>
+    <constant name="struts.multipart.saveDir" value="/tmp"></constant>
+
+    <!-- Add packages here -->
+
+    <package name="default" namespace="/" extends="struts-default">
+    	<!-- 页面显示Action -->
+    	<action name="PageInfoAction*" class="com.myitbbs.action.PageInfoAction" method="{1}">
+    		<!-- 首页出口 -->
+    		<result name="firstPage">firstPage.jsp</result>
+    		<result name="secondPage">categoryChildPage.jsp</result>
+    		<result name="topicListPage">topicListPage.jsp</result>
+    		<result name="readTopicPage">readTopicPage.jsp</result>
+    		<result name="readNewsPage">readNewsPage.jsp</result>
+    		<result name="showUserInfo">personInformation.jsp</result>
+    		<result name="toCTopicList">allPost.jsp</result>
+    		<result name="toCHTopicList">categoryChildPost.jsp</result>
+    		<result name="toResourcePage">resource.jsp</result>
+    		<result name="toLoginPage" type="redirectAction">LoginActiontoLoginPage</result>
+    			<result name="toNewsList">newsListPage.jsp</result>
+    			<result name="toPersonCenter">personCenter.jsp</result>
+    			<result name="toPersonTopic">personTopics.jsp</result>
+    			<result name="toReadPersonResource">readPersonResource.jsp</result>
+    			<result name="toReadJoinTopic">readJoinTopic.jsp</result>
+    			              
+    			<result name="informationChange">informationChange.jsp</result>
+    			<result name="showFriendInfo">friendInformation.jsp</result>
+    			<result name="toFriendCenter">friendCenter.jsp</result>
+    			<result name="toFriendTopices">friendTopices.jsp</result>
+    			<result name="toReadFriendResource">readFriendResource.jsp</result>
+    			<result name="toOutbox">outbox.jsp</result>
+    			<result name="toInbox">inbox.jsp</result>
+    			<result name="toReadOutMessag">readmessage1.jsp</result>
+    			<result name="toReadInMessag">readmessage.jsp</result>
+    			<result name="systemMessages">systemMessages.jsp</result>
+    			<result name="topicRemind">personRemindTopics.jsp</result>
+    			
+    	</action>
+    	<!-- 搜索 -->
+    	<action name="SearchAction*" class="com.myitbbs.action.SearchAction" method="{1}">
+    <result name="toAboutAdmin">AboutAdmin.jsp</result>
+    <result name="toAboutTopic">AboutTopic.jsp</result>
+                               
+    <result name="toAboutResource">AboutResource.jsp</result>
+    	</action>
+    	<!-- 登陆Action -->
+    	<action name="LoginAction*" class="com.myitbbs.action.LoginAction" method="{1}">
+    		<result name="toLoginPage">loginPage.jsp</result>
+    		<result name="login_success" type="redirectAction">PageInfoActionfirstPage</result>
+    		<result name="login_fail" type="redirectAction">LoginActiontoLoginPage</result>
+    	</action>
+    	
+    	<!-- 注册Action -->
+    	<action name="RegisterAction*" class="com.myitbbs.action.RegisterAction" method="{1}">
+    		<result name="toRegisterPage">registerPage.jsp</result>
+    		<result name="register_success" type="redirectAction">registerSuccess.jsp</result>
+    		<result name="register_fail">registerPage.jsp</result>
+    	</action>
+    	
+    	<!-- 用户功能Action -->
+    	<action name="UserAction*" class="com.myitbbs.action.UserAction" method="{1}">
+	    	<exception-mapping result="uploadFail" exception="java.lang.Excption"></exception-mapping>
+
+    		<interceptor-ref name="defaultStack">
+    		</interceptor-ref>
+    		<result name="toWriteTopicPage">writeTopicPage.jsp</result>
+			<!--<result name="success">userInfoPage.jsp</result>-->
+    		<result name="toLoginPage" type="redirectAction">LoginActiontoLoginPage</result>
+    		<result name="toForward" >message.jsp</result>
+    		<result name="toUploadFilePage">uploadPage.jsp</result>
+    		<result name="deleteFile">deleteFileSuccess.jsp</result>
+    		<result name="input">uploadFail.jsp</result>
+    		<result name="toPostMessage">postmessage.jsp</result>
+    		<result name="downFile" type="stream">
+    		    <param name="contentType">application/octet-stream;charset=ISO8859-1</param>
+    			<param name="inputName">inputStream</param>
+    			<param name="bufferSize">4096</param>
+    			<param name="contentDisposition">
+            		attachment;filename="${fileName}"
+        		</param>
+    			
+    		</result>
+    		
+    		
+    	</action>
+    	
+    	<!-- 后台管理功能Action -->
+   		<action name="ManagerAction*" class="com.myitbbs.action.ManagerAction" method="{1}">
+    		<result name="toManagerPage">adminIndex.html</result>
+    		<result name="fail">adminFail.jsp</result>
+    		<result name="add_user_success">adminUserList.html</result>
+    		<result name="add_user_fail">adminAddUser.jsp</result>
+    		<result name="toAddCategoryChild">adminAddCategoryChild.jsp</result>
+    		<result name="toAddCategory">adminAddCategory.jsp</result>
+    		<result name="toAddUser">adminAddUser.jsp</result>
+    		<result name="toAdminCategoryList">adminCategoryList.jsp</result>
+    		<result name="toAdminCategoryChildList">adminCategoryChildList.jsp</result>
+    		<result name="toWriteNews">adminWriteNews.jsp</result>
+    		<result name="toShowUser">adminUserList.jsp</result>
+    		<result name="toNewsList">adminNewsList.jsp</result>
+    		<result name="toShowTopicList">adminTopicList.jsp</result>
+    		<result name="toShowCommentList">adminCommentList.jsp</result>
+    		<result name="toForward">forward.jsp</result>
+    		<result name="toReportTopic">reportTopic.jsp</result>
+    		<result name="adminMain">adminMain.jsp</result>
+    	</action>
+    	
+        <!-- 退出功能Action -->
+    	<action name="QuitAction" class="com.myitbbs.action.QuitAction">
+    		<result name="success" type="redirectAction">PageInfoActionfirstPage</result>
+    	</action>
+    	 <action name="rand" class="com.myitbbs.action.RandomAction">
+      <result type="stream">
+               <param name="contentType">image/jpg</param>
+               <param name="inputName">inputStream</param>
+        </result>
+        </action>
+    	<!-- 全局Action -->
+        <action name="*">
+        	<result type="chain">PageInfoActionfirstPage</result>
+        </action>
+      
+    </package>
+
+</struts>

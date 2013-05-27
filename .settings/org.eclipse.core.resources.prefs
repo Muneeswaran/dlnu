@@ -1,0 +1,23 @@
+#Tue May 21 13:46:06 CST 2013
+eclipse.preferences.version=1
+encoding//WebRoot/JavaRoom.jsp=UTF-8
+encoding//WebRoot/adminAddCategoryChild.jsp=UTF-8
+encoding//WebRoot/adminCategoryChildList.jsp=UTF-8
+encoding//WebRoot/adminCategoryList.jsp=UTF-8
+encoding//WebRoot/adminCommentList.jsp=UTF-8
+encoding//WebRoot/adminTopicList.jsp=UTF-8
+encoding//WebRoot/adminUserList.jsp=UTF-8
+encoding//WebRoot/allPost.jsp=UTF-8
+encoding//WebRoot/categoryChildPage.jsp=UTF-8
+encoding//WebRoot/categoryChildPost.jsp=UTF-8
+encoding//WebRoot/error.jsp=UTF-8
+encoding//WebRoot/firstPage.jsp=UTF-8
+encoding//WebRoot/forward.jsp=UTF-8
+encoding//WebRoot/js/jquery.coffee.js=UTF-8
+encoding//WebRoot/postmessage.jsp=UTF-8
+encoding//WebRoot/readNewsPage.jsp=UTF-8
+encoding//WebRoot/readmessage.jsp=UTF-8
+encoding//WebRoot/resource.jsp=UTF-8
+encoding//WebRoot/topicListPage.jsp=UTF-8
+encoding//WebRoot/userInfoPage.jsp=UTF-8
+encoding/<project>=UTF-8

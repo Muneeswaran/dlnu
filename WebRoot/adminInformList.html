@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>文档管理</title>
+<link rel="stylesheet" type="text/css" href="skin/css/base.css">
+</head>
+<body leftmargin="8" topmargin="8" background='skin/images/allbg.gif'>
+
+<!--  快速转换位置按钮  -->
+<table width="98%" border="0" cellpadding="0" cellspacing="1" bgcolor="#D1DDAA" align="center">
+<tr>
+ <td height="26" background="skin/images/newlinebg3.gif">
+</td>
+</tr>
+</table>
+  
+<!--  内容列表   -->
+  <table width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#D1DDAA" align="center" style="margin-top:8px">
+    <tr bgcolor="#E7E7E7">
+      <td height="24" colspan="15" background="skin/images/tbg.gif">通知列表&nbsp;</td>
+    </tr>
+    <tr align="center" bgcolor="#FAFAF1" height="22">
+      <td width="5%">ID</td>
+      <td width="20%">通知标题</td>
+      <td width="50%">通知内容</td>
+>
+      <td width="10%">新闻时间</td>
+      <td width="10%">通知图片</td>
+      <td width="10%">操作</td>
+    </tr>
+    <tr align='center' bgcolor="#FFFFFF" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';" height="22" >
+    <form action="#">
+      <td>5</td>
+      <td align="left">新闻标题</td>
+      <td>新闻内容</td>
+      <td>新闻时间</td>
+      <td>图片路径</td>
+      <td><a href="101">删除</a></td>
+      </form>
+    </tr>
+    
+    <tr bgcolor="#FAFAF1">
+      <td height="28" colspan="15">&nbsp; <a href="javascript:selAll()" class="coolbg">更新列表</a> </td>
+    </tr>
+    <tr align="right" bgcolor="#EEF4EA">
+      <td height="36" colspan="15" align="center"><!--翻页代码 --></td>
+    </tr>
+  </table>
+
+<!--  搜索表单  -->
+<form name='form3' action='' method='get'>
+<input type='hidden' name='dopost' value='' />
+<table width='98%'  border='0' cellpadding='1' cellspacing='1' bgcolor='#CBD8AC' align="center" style="margin-top:8px">
+  <tr bgcolor='#EEF4EA'>
+    <td background='skin/images/wbg.gif' align='center'>
+      <table border='0' cellpadding='0' cellspacing='0'>
+        <tr>
+          <td width='90' align='center'>搜索条件：</td>
+          <td width='160'>
+          <select name='cid' style='width:150'>
+              <option value='0'>新闻发布时间</option>
+              <option value='1'>标题</option>
+          </select>
+        </td>
+        <td width='70'>
+          关键字：
+        </td>
+        <td width='160'>
+          	<input type='text' name='keyword' value='' style='width:150px' />
+        </td>
+        <td>
+          <input name="imageField" type="image" src="skin/images/frame/search.gif" width="45" height="20" border="0" class="np" />
+        </td>
+       </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,211 @@
+@charset "utf-8";
+#header {
+	background-color: #000;
+	display: block;
+	width: 100%;
+	background-image: url(../images/head-bg.jpg);
+	background-repeat: repeat-x;
+	height: 155px;
+}
+#logo {
+	position: absolute;
+	left: 250px;
+}
+#top {
+	height: 110px;
+	width: 100%;
+	position: relative;
+}
+#top_right {
+	display: block;
+	position: absolute;
+	right: 42px;
+	bottom: -1px;
+	height: 41px;
+	width: 87px;
+	text-align: center;
+	clear: right;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+#layout #header #top #top_right a {
+	text-decoration: none;
+	display: inline-block;
+	color: #E28822;
+}
+#layout #header #nav ul li {
+	text-decoration: none;
+	float: left;
+	list-style-type: none;
+	font-size: 16px;
+	line-height: 38px;
+	padding-top: 0px;
+	padding-right: 25px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+#nav {
+	clear: both;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+	height: 38px;
+	padding: 0px;
+}
+#layout #header #nav ul {
+	text-align: center;
+	display: block;
+	width: 980px;
+	height: 38px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 300px;
+}
+
+#layout #header #nav ul li a:hover ,.page_in {
+	color:#F00;
+	
+}
+
+#content {
+	display: block;
+	position: relative;
+	width: 1010px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	min-height: 1000px;
+	overflow: hidden;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #AAA;
+	border-left-color: #AAA;
+}
+#layout {
+	padding: 0px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+}
+#layout #header #top #top_right a:hover {
+	color: #069;
+}
+.in_quickly {
+	text-align: left;
+	clear: both;
+	height: 46px;
+	width: 970px;
+	-webkit-transition: width 3s ease-out;
+	-o-transition: width 3s ease-out;
+	-moz-transition: width 3s ease-out;
+	padding-bottom: 0px;
+	float: left;
+	padding-top: 20px;
+}
+#layout #content .in_quickly:hover {
+	height: 46px;
+	width: 970px;
+}
+#layout #content .in_quickly ul li {
+	background-image: url(../images/templatemo_button.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 27px;
+	width: 122px;
+	float: left;
+	margin-right: 100px;
+	display: block;
+	padding-top: 2px;
+}
+#layout #content .in_quickly ul {
+	height: 29px;
+	width: 970px;
+	overflow: hidden;
+	float: left;
+}
+#layout #content .in_quickly:hover ul {
+	width: 970px;
+}
+#layout #content .in_quickly:hover ul .press {
+	background-image: url(../images/bg_patten.jpg);
+}
+#slider-container {
+	margin: 0px; border: 1px solid rgb(255, 255, 255); width: 938px; height: 408px; overflow: hidden; clear: both !important; position: relative;
+}
+
+#slider {
+	margin: 0px auto; width: 938px; height: 408px; overflow: hidden; position: relative; z-index: 9;
+}
+#slider h1 {
+	color: rgb(255, 255, 255); font-size: 24px;
+}
+#slider .sdate {
+	padding-bottom: 10px; display: block;
+}
+#slider hr {
+	margin: 0px 0px 20px; padding: 0px; border-bottom-color: rgb(137, 137, 137); border-bottom-width: 1px; border-bottom-style: solid;
+}#news {
+	border: 2px solid #069;
+	border-collapse: collapse;
+	margin-top: 3px;
+	float: left;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+.first_col {
+	color: #FFA34F;
+	background-color: #069;
+}
+.td1 {
+	width: 80%;
+}
+tr:hover {
+	background-color: #069;
+}
+tr {
+	background-color: #EFEFEF;
+}
+table {
+	margin: 8px;
+	
+}
+#footer {
+	width: 980px;
+	height: 110px;
+	display: block;
+	clear: both;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#content1 {
+	float: left;
+	width: 640px;
+	height: auto;
+	padding-left: 4px;
+}
+#content2 {
+	width: 220px;
+	float: left;
+	text-align: center;
+	margin-top: 3px;
+	margin-right: auto;
+	margin-left: auto;
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="0,0" size="0,0">
+    <action name="PageInfoAction*" location="0,0" size="0,0">
+      <result name="firstPage">
+        <resourceEdge source="firstPage" routing="0" target="firstPage.jsp" />
+      </result>
+      <result name="secondPage">
+        <resourceEdge source="secondPage" routing="0" target="categoryChildPage.jsp" />
+      </result>
+      <result name="topicListPage">
+        <resourceEdge source="topicListPage" routing="0" target="topicListPage.jsp" />
+      </result>
+      <result name="readTopicPage">
+        <resourceEdge source="readTopicPage" routing="0" target="readTopicPage.jsp" />
+      </result>
+      <result name="readNewsPage">
+        <resourceEdge source="readNewsPage" routing="0" target="readNewsPage.jsp" />
+      </result>
+      <result name="showUserInfo">
+        <resourceEdge source="showUserInfo" routing="0" target="userInfoPage.jsp" />
+      </result>
+      <result name="toLoginPage" />
+    </action>
+    <action name="LoginAction*" location="0,0" size="0,0">
+      <result name="toLoginPage">
+        <resourceEdge source="toLoginPage" routing="0" target="loginPage.jsp" />
+      </result>
+      <result name="login_success" />
+      <result name="login_fail" />
+    </action>
+    <action name="RegisterAction*" location="0,0" size="0,0">
+      <result name="toRegisterPage">
+        <resourceEdge source="toRegisterPage" routing="0" target="registerPage.jsp" />
+      </result>
+      <result name="register_success" />
+      <result name="register_fail">
+        <resourceEdge source="register_fail" routing="0" target="registerPage.jsp" />
+      </result>
+    </action>
+    <action name="UserAction*" location="0,0" size="0,0">
+      <result name="toWriteTopicPage">
+        <resourceEdge source="toWriteTopicPage" routing="0" target="writeTopicPage.jsp" />
+      </result>
+      <result name="toLoginPage" />
+      <result name="toForward">
+        <resourceEdge source="toForward" routing="0" target="message.jsp" />
+      </result>
+      <result name="toUploadFilePage">
+        <resourceEdge source="toUploadFilePage" routing="0" target="uploadPage.jsp" />
+      </result>
+      <result name="deleteFile">
+        <resourceEdge source="deleteFile" routing="0" target="deleteFileSuccess.jsp" />
+      </result>
+      <result name="success" />
+    </action>
+    <action name="ManagerAction*" location="0,0" size="0,0">
+      <result name="toManagerPage">
+        <resourceEdge source="toManagerPage" routing="0" target="adminIndex.html" />
+      </result>
+      <result name="fail">
+        <resourceEdge source="fail" routing="0" target="adminFail.jsp" />
+      </result>
+      <result name="add_user_success">
+        <resourceEdge source="add_user_success" routing="0" target="adminUserList.html" />
+      </result>
+      <result name="add_user_fail">
+        <resourceEdge source="add_user_fail" routing="0" target="adminAddUser.jsp" />
+      </result>
+      <result name="toAddCategoryChild">
+        <resourceEdge source="toAddCategoryChild" routing="0" target="adminAddCategoryChild.jsp" />
+      </result>
+      <result name="toAddCategory">
+        <resourceEdge source="toAddCategory" routing="0" target="adminAddCategory.jsp" />
+      </result>
+      <result name="toAddUser">
+        <resourceEdge source="toAddUser" routing="0" target="adminAddUser.jsp" />
+      </result>
+      <result name="toAdminCategoryList">
+        <resourceEdge source="toAdminCategoryList" routing="0" target="adminCategoryList.jsp" />
+      </result>
+      <result name="toAdminCategoryChildList">
+        <resourceEdge source="toAdminCategoryChildList" routing="0" target="adminCategoryChildList.jsp" />
+      </result>
+      <result name="toWriteNews">
+        <resourceEdge source="toWriteNews" routing="0" target="adminWriteNews.jsp" />
+      </result>
+      <result name="toShowUser">
+        <resourceEdge source="toShowUser" routing="0" target="adminUserList.jsp" />
+      </result>
+      <result name="toNewsList">
+        <resourceEdge source="toNewsList" routing="0" target="adminNewsList.jsp" />
+      </result>
+      <result name="toShowTopicList">
+        <resourceEdge source="toShowTopicList" routing="0" target="adminTopicList.jsp" />
+      </result>
+      <result name="toShowCommentList">
+        <resourceEdge source="toShowCommentList" routing="0" target="adminCommentList.jsp" />
+      </result>
+      <result name="toForward">
+        <resourceEdge source="toForward" routing="0" target="forward.jsp" />
+      </result>
+    </action>
+    <action name="QuitAction" location="0,0" size="0,0">
+      <result name="success" />
+    </action>
+    <action name="*" location="0,0" size="0,0">
+      <result name="success" />
+    </action>
+  </package>
+  <webResource name="Blog.jsp" path="Blog.jsp" location="350,50" size="150,55" />
+  <webResource name="Login.jsp" path="Login.jsp" location="500,50" size="150,55" />
+  <webResource name="Category.jsp" path="Category.jsp" location="504,363" size="150,55" />
+  <webResource name="ArticleCategory.jsp" path="ArticleCategory.jsp" location="343,164" size="150,55" />
+  <webResource name="UserCategory.jsp" path="UserCategory.jsp" location="518,260" size="150,55" />
+  <webResource name="Register.jsp" path="Register.jsp" location="280,384" size="150,55" />
+  <webResource name="RegisterSuccess.jsp" path="RegisterSuccess.jsp" location="76,471" size="0,0" />
+  <webResource name="firstPage.jsp" path="firstPage.jsp" location="0,0" size="0,0" />
+  <webResource name="categoryChildPage.jsp" path="categoryChildPage.jsp" location="0,0" size="0,0" />
+  <webResource name="topicListPage.jsp" path="topicListPage.jsp" location="0,0" size="0,0" />
+  <webResource name="readTopicPage.jsp" path="readTopicPage.jsp" location="0,0" size="0,0" />
+  <webResource name="readNewsPage.jsp" path="readNewsPage.jsp" location="0,0" size="0,0" />
+  <webResource name="userInfoPage.jsp" path="userInfoPage.jsp" location="0,0" size="0,0" />
+  <webResource name="loginPage.jsp" path="loginPage.jsp" location="0,0" size="0,0" />
+  <webResource name="registerPage.jsp" path="registerPage.jsp" location="0,0" size="0,0" />
+  <webResource name="writeTopicPage.jsp" path="writeTopicPage.jsp" location="0,0" size="0,0" />
+  <webResource name="message.jsp" path="message.jsp" location="0,0" size="0,0" />
+  <webResource name="adminIndex.html" path="adminIndex.html" location="0,0" size="0,0" />
+  <webResource name="adminFail.jsp" path="adminFail.jsp" location="0,0" size="0,0" />
+  <webResource name="adminUserList.html" path="adminUserList.html" location="0,0" size="0,0" />
+  <webResource name="adminAddUser.jsp" path="adminAddUser.jsp" location="0,0" size="0,0" />
+  <webResource name="adminAddCategoryChild.jsp" path="adminAddCategoryChild.jsp" location="0,0" size="0,0" />
+  <webResource name="adminAddCategory.jsp" path="adminAddCategory.jsp" location="0,0" size="0,0" />
+  <webResource name="adminCategoryList.jsp" path="adminCategoryList.jsp" location="0,0" size="0,0" />
+  <webResource name="adminCategoryChildList.jsp" path="adminCategoryChildList.jsp" location="0,0" size="0,0" />
+  <webResource name="adminWriteNews.jsp" path="adminWriteNews.jsp" location="0,0" size="0,0" />
+  <webResource name="adminUserList.jsp" path="adminUserList.jsp" location="0,0" size="0,0" />
+  <webResource name="adminNewsList.jsp" path="adminNewsList.jsp" location="0,0" size="0,0" />
+  <webResource name="adminTopicList.jsp" path="adminTopicList.jsp" location="0,0" size="0,0" />
+  <webResource name="adminCommentList.jsp" path="adminCommentList.jsp" location="0,0" size="0,0" />
+  <webResource name="forward.jsp" path="forward.jsp" location="0,0" size="0,0" />
+  <webResource name="uploadPage.jsp" path="uploadPage.jsp" location="0,0" size="0,0" />
+  <webResource name="deleteFileSuccess.jsp" path="deleteFileSuccess.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

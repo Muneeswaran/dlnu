@@ -1,0 +1,21 @@
+@charset "utf-8";
+body{ bgcolor:#FAF9F5; font-size:12px; font-family:"微软雅黑","Lucida Console", Monaco, monospace;border:none;}
+#nav{ margin:auto;width:880px;}
+#top{margin-top:20px;}
+#nav .um a{color:#999; text-decoration:none;}
+.logo{float:left;boeder:none;}
+.um p{ font-family:"Lucida Console", Monaco, monospace, "微软雅黑";color:#444; text-align:right;font-size:12px;}
+.top_c{height:35px;margin-top:100px;background-color:#333;}
+#qmenu{float:right; margin-top:3px;padding-right:8px; text-decoration:none;}
+.top_c ul{position:relative;height:35px;padding:0px 0px 0 3px;}
+.top_c ul li{list-style:none;float:left;font-weight:700;font-size:14px; color:#999;height:35px;width:80px;text-align:center;padding-top:5px;}
+.top_c ul li a{display:block;width:50px;height:30px;text-decoration:none;color:#ccc;padding:0 4px 0 5px; }
+.top_c ul li a:hover{background-color:#f60;}
+.top_b{margin-top:2px;}
+.top_b a{border:none; text-decoration:none;}
+#trans{float:left;
+margin-top:10px;}
+#trans a{color:#000; text-decoration:none;}
+#foot{margin-top:10px;width:880px; height:100px;}
+.bot_r{float:right;padding-right:20px;}
+.bot_r a{color:#000; text-decoration:none;}

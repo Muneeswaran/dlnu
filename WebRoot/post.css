@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0;padding:0;}
+body{ bgcolor:#FAF9F5; font-size:12px; font-family:"微软雅黑","Lucida Console", Monaco, monospace;border:none;}
+#nav{ margin:auto;width:880px;}
+#top{margin-top:20px;}
+#nav .um a{color:#999; text-decoration:none;}
+.logo{float:left;boeder:none;}
+.um p{ font-family:"Lucida Console", Monaco, monospace, "微软雅黑";color:#444; text-align:right;font-size:12px;}
+.top_c{
+	
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:880px;
+	text-align:center;}
+#qmenu{
+	float:right; 
+	margin-top:3px;padding-right:8px;
+	text-decoration:none;}
+.top_c ul{padding:0 0 0 10px;
+	margin:0px;
+	list-style:none;
+	height:35px;
+	background:#adc720;
+	box-shadow: 0px 3px 20px #B9B7B7;}
+.top_c ul li{float:left;}
+.top_c ul li a{display:block;
+	line-height:35px;
+	color:#fff;
+	text-decoration:none;
+	padding:0 10px 0 10px;}
+.top_c ul li a:hover{
+	color:#fff;
+	background:#f17200;}
+.top_b{margin-top:2px;}
+.top_b a{border:none; text-decoration:none;}
+#trans{float:left;
+margin-top:10px;}
+#trans a{color:#000; text-decoration:none;}
+.home{padding-top:50px;}
+em{width:20px;}
+#con{
+		width:880px;
+		height:400px;
+		margin-top:40px;
+		margin-bottom:10px;
+	}
+.po{margin-left:2px;}
+.po ul{display:block;
+padding-left:5px;
+line-height:30px;
+border-left:solid 1px #fff;
+border-top:solid 1px #fff;
+width:872px;}
+.po ul li{ list-style:none; display:list-item;padding:0 5px;border-bottom:solid 1px #ccc;
+ }
+.po ul li a{  background-color:#Fff;display:block;width:50px;height:32px;padding:0px 5px; text-decoration:none; font-weight:700; border-left:solid 1px #ccc;border-bottom:solid 1px #fff;border-top:solid 1px #ccc;border-right:solid 1px #ccc;color:#000;}
+.post{
+		margin-left:90px;
+		margin-top:20px;
+	}
+.c {
+		margin-top:20px;
+		margin-left:90px;
+		}
+.sel{
+	width:100px;
+	margin-bottom:20px;
+	}
+.title{
+		width:595px;height:20px;
+		 margin-bottom:20px;
+		}
+#footer {
+	background-image: url(../images/pagelist-bg.png);
+	display: block;
+	clear: both;
+	height: 100px;
+	width: 100%;
+	border: 1px solid #e1e1e1;
+	margin-top:50px;
+}
+#footerContent {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	font-family: "Comic Sans MS", cursive;
+}
+
+
+
+	
+.bot_r{float:right;padding-right:20px;}
+.bot_r a{color:#000; text-decoration:none;}
